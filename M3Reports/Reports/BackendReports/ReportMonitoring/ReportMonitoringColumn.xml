@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Columns>
+  <Column>
+    <Location>A</Location>
+    <Name>AtmNumber</Name>
+    <Width>20</Width>
+  </Column>
+  <Column>
+    <Location>B</Location>
+    <Name>Address</Name>
+    <Width>40</Width>
+  </Column>
+  <Column>
+    <Location>C</Location>
+    <Name>Place</Name>
+    <Width>20</Width>
+  </Column>
+  <Column>
+    <Location>D</Location>
+    <Name>FaultDescription</Name>
+    <Width>40</Width>
+  </Column>
+  <Column>
+    <Location>E</Location>
+    <Name>Model</Name>
+    <Width>30</Width>
+  </Column>
+  <Column>
+    <Location>F</Location>
+    <Name>Date</Name>
+    <Width>30</Width>
+  </Column>
+  <Column>
+    <Location>G</Location>
+    <Name>CurrentState</Name>
+    <Width>30</Width>
+  </Column>
+</Columns>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Columns>
+  <Column>
+    <Location>A</Location>
+    <Name>DateTime</Name>
+    <Title>Дата</Title>
+    <Width>20</Width>
+  </Column>
+  <Column>
+    <Location>B</Location>
+    <Name>DayOfWeek</Name>
+    <Title>День недели</Title>
+    <Width>30</Width>
+  </Column>
+  <Column>
+    <Location>C</Location>
+    <Name>Withdraw</Name>
+    <Title>Статистика. Снято наличных</Title>
+    <Width>20</Width>
+  </Column>
+  <Column>
+    <Location>D</Location>
+    <Name>ForcastWithdraw</Name>
+    <Title>Прогноз. Снято наличных</Title>
+    <Width>20</Width>
+  </Column>
+  <Column>
+    <Location>E</Location>
+    <Name>Remain</Name>
+    <Title>Статистика. Остатки на конец дня</Title>
+    <Width>20</Width>
+  </Column>
+  <Column>
+    <Location>F</Location>
+    <Name>RemainForcast</Name>
+    <Title>Прогноз. Остатки на конец дня</Title>
+    <Width>20</Width>
+  </Column>
+</Columns>
+

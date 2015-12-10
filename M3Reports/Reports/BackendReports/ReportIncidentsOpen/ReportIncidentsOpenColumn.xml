@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Columns>
+  <Column>
+    <Location>A</Location>
+    <Name>Number</Name>
+    <Title>Номер</Title>
+    <Width>15</Width>
+  </Column>
+  <Column>
+    <Location>B</Location>
+    <Name>Address</Name>
+    <Title>Адрес</Title>
+    <Width>70</Width>
+  </Column>
+  <Column>
+    <Location>C</Location>
+    <Name>Type</Name>
+    <Title>Тип</Title>
+    <Width>12</Width>
+  </Column>
+  <Column>
+    <Location>D</Location>
+    <Name>Comment</Name>
+    <Title>Комментарий</Title>
+    <Width>50</Width>
+  </Column>
+  <Column>
+    <Location>E</Location>
+    <Name>HourCount</Name>
+    <Title>Текущее время устранения инцидента</Title>
+    <Width>50</Width>
+  </Column>
+  <Column>
+    <Location>F</Location>
+    <Name>Critical</Name>
+    <Title>Критичность</Title>
+    <Width>25</Width>
+  </Column>
+</Columns>

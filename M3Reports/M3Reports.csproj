@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{29147CED-802B-4791-9295-7CB1080FF789}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>M3Reports</RootNamespace>
+    <AssemblyName>M3Reports</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.0.5022.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\..\..\..\..\m3_external\External\JSON.NET\Net35\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=2.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Queries.cs" />
+    <Compile Include="Reports\ReportData.cs" />
+    <Compile Include="ReportsHistory\ReportHistory.cs" />
+    <Compile Include="ReportsHistory\ReportHistoryGet.cs" />
+    <Compile Include="ReportsHistory\ReportHistoryGetFacade.cs" />
+    <Compile Include="ReportsHistory\ReportHistorySet.cs" />
+    <Compile Include="ReportsHistory\ReportHistoryUpdate.cs" />
+    <Compile Include="ReportsTasks\ReportTask.cs" />
+    <Compile Include="ReportsTasks\Change\ReportTaskChange.cs" />
+    <Compile Include="ReportsTasks\Change\ReportTaskChangeFacade.cs" />
+    <Compile Include="ReportsTasks\Create\ReportTaskCreate.cs" />
+    <Compile Include="ReportsTasks\Create\ReportTaskCreateFacade.cs" />
+    <Compile Include="ReportsTasks\Delete\ReportTaskDelete.cs" />
+    <Compile Include="ReportsTasks\Delete\ReportTaskDeleteFacade.cs" />
+    <Compile Include="ReportsTasks\Get\ReportTasksGet.cs" />
+    <Compile Include="ReportsTasks\Get\ReportTasksGetFacade.cs" />
+    <Compile Include="Reports\ReportInfo.cs" />
+    <Compile Include="Reports\BackendReports\ReportAllAtms\ReportAllAtms.cs" />
+    <Compile Include="Reports\BackendReports\ReportAllAtms\ReportAllAtmsFacade.cs" />
+    <Compile Include="Reports\BackendReports\ReportAvailabilities\ReportAvailabilities.cs" />
+    <Compile Include="Reports\BackendReports\ReportAvailabilities\ReportAvailabilitiesGetFacade.cs" />
+    <Compile Include="Reports\BackendReports\ReportCollectionForecast\ReportCollectionForecast.cs" />
+    <Compile Include="Reports\BackendReports\ReportCollectionForecast\ReportCollectionForecastFacade.cs" />
+    <Compile Include="Reports\ReportColums.cs" />
+    <Compile Include="Reports\BackendReports\ReportCounts\ReportCounts.cs" />
+    <Compile Include="Reports\BackendReports\ReportCounts\ReportCountsGetFacade.cs" />
+    <Compile Include="Reports\ReportDataProvider.cs" />
+    <Compile Include="Reports\FrontendReports\ReportEvents\EventDescriptionItem.cs" />
+    <Compile Include="Reports\FrontendReports\ReportEvents\EventItem.cs" />
+    <Compile Include="Reports\FrontendReports\ReportEvents\ReportEvents.cs" />
+    <Compile Include="Reports\FrontendReports\ReportEvents\ReportEventsGetFacade.cs" />
+    <Compile Include="Reports\BackendReports\ReportIncidentsByDevices\ReportIncidentsByDevices.cs" />
+    <Compile Include="Reports\BackendReports\ReportIncidentsByDevices\ReportIncidentsByDevicesGetFacade.cs" />
+    <Compile Include="Reports\BackendReports\ReportIncidentsOpen\ReportIncidentsOpen.cs" />
+    <Compile Include="Reports\BackendReports\ReportIncidentsOpen\ReportIncidentsOpenFacade.cs" />
+    <Compile Include="Reports\FrontendReports\ReportIncidentsPivotTable\ReportIncidentsPivotTable.cs" />
+    <Compile Include="Reports\FrontendReports\ReportIncidentsPivotTable\ReportIncidentsPivotTableFacade.cs" />
+    <Compile Include="Reports\BackendReports\ReportIncidentsByTypes\ReportIncidentsByTypes.cs" />
+    <Compile Include="Reports\BackendReports\ReportIncidentsByTypes\ReportIncidentsByTypesGetFacade.cs" />
+    <Compile Include="Reports\ReportBuilder.cs" />
+    <Compile Include="Reports\FrontendReports\ReportMessages\ReportMessagesGet.cs" />
+    <Compile Include="Reports\FrontendReports\ReportMessages\ReportMessagesGetFacade.cs" />
+    <Compile Include="Reports\BackendReports\ReportMonitoring\ReportMonitoring.cs" />
+    <Compile Include="Reports\BackendReports\ReportMonitoring\ReportMonitoringFacade.cs" />
+    <Compile Include="Reports\BackendReports\ReportSummaryIncidentsOpen\ReportSummaryIncidentsOpen.cs" />
+    <Compile Include="Reports\BackendReports\ReportSummaryIncidentsOpen\ReportSummaryIncidentsOpenFacade.cs" />
+    <Compile Include="Reports\FrontendReports\ReportTransactions\ReportTransactionItem.cs" />
+    <Compile Include="Reports\FrontendReports\ReportTransactions\ReportTransactionsGet.cs" />
+    <Compile Include="Reports\FrontendReports\ReportTransactions\ReportTransactionsGetFacade.cs" />
+    <Compile Include="Reports\BackendReports\ReportUsers\FuncDesctiptionItem.cs" />
+    <Compile Include="Reports\BackendReports\ReportUsers\ReportUsers.cs" />
+    <Compile Include="Reports\BackendReports\ReportUsers\ReportUsersGetFacade.cs" />
+    <Compile Include="Reports\BackendReports\ReportUsers\UserActionItem.cs" />
+    <Compile Include="Reports\BackendReports\ReportUsers\UserDescriptionItem.cs" />
+    <Compile Include="Reports\BackendReports\ReportOutOfService\ReportOutOfService.cs" />
+    <Compile Include="Reports\BackendReports\ReportOutOfService\ReportOutOfServiceFacade.cs" />
+    <Compile Include="ReportsSource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportsSource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ReportsSource.en-US.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportsSource.en-US.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Reports\BackendReports\ReportAllAtms\ReportAllAtmsColumn.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Reports\BackendReports\ReportAvailabilities\ReportAvailabilityColumns.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Reports\BackendReports\ReportCollectionForecast\ReportCollectionForecastPageNColumn.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Reports\BackendReports\ReportCollectionForecast\ReportCollectionForecastPage1Column.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\BackendReports\ReportCounts\ReportBNACountsColumn.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\BackendReports\ReportCounts\ReportCountsColumn.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\BackendReports\ReportIncidentsByTypes\ReportIncidentColumn-RNCB.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\BackendReports\ReportIncidentsByTypes\ReportIncidentColumn-BM.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\BackendReports\ReportMonitoring\ReportMonitoringColumn.xml" />
+    <Content Include="Reports\FrontendReports\ReportEvents\ReportEventsColumn.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\BackendReports\ReportIncidentsOpen\ReportIncidentsOpenColumn.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\FrontendReports\ReportIncidentsPivotTable\ReportIncidentsPivotTableColumn.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\BackendReports\ReportIncidentsByTypes\ReportIncidentColumn.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\FrontendReports\ReportMessages\ReportMessageColums.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\BackendReports\ReportSummaryIncidentsOpen\ReportSummaryIncidentsOpenPage1Column.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Reports\BackendReports\ReportSummaryIncidentsOpen\ReportSummaryIncidentsOpenPageNColumn.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\FrontendReports\ReportTransactions\ReportTransactionColums.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Reports\BackendReports\ReportUsers\ReportUsersColumn.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\M3Atms\M3Atms.csproj">
+      <Project>{0041C86E-4BB9-439D-A8C1-6CC7618771B9}</Project>
+      <Name>M3Atms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\M3Dictionaries\M3Dictionaries.csproj">
+      <Project>{EF329C15-CCE4-4CAD-B85F-B6E3FBBDE5C4}</Project>
+      <Name>M3Dictionaries</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\M3Incidents\M3Incidents.csproj">
+      <Project>{D90EF904-A237-41D3-86CD-4F1B4005945E}</Project>
+      <Name>M3Incidents</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\M3IPClient\M3IPClient.csproj">
+      <Project>{151D60AA-9987-4A90-B3DD-FDE0D0FF131E}</Project>
+      <Name>M3IPClient</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\M3Utils\M3Utils.csproj">
+      <Project>{0A21BF19-A3E4-4BF1-86A0-9DAA54AD4669}</Project>
+      <Name>M3Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TrxListGen\M3TransactionListGenerator.csproj">
+      <Project>{CE9B9E8E-31E2-4D82-9BF2-983C110F733D}</Project>
+      <Name>M3TransactionListGenerator</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ReportsSource.en-US.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ReportsSource.en-US.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportsSource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ReportsSource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>mkdir "$(TargetDir)\M3Atms\"
+copy "$(TargetDir)\Info\AtmStatuses.xml" "$(TargetDir)\M3Atms\AtmStatuses.xml"
+rd "$(TargetDir)\Info\" /s /q
+
+mkdir "$(TargetDir)\M3Incidents\Templates\"
+copy "$(TargetDir)\Templates\*.docx" "$(TargetDir)\M3Incidents\Templates\*.docx"
+rd "$(TargetDir)\Templates\" /s /q
+
+mkdir "$(TargetDir)\M3Reports\"
+copy "$(TargetDir)\project items\TrxRepCfg.xml" "$(TargetDir)\M3Reports\TrxRepCfg.xml"
+for /R "$(TargetDir)\Reports\" %25%25f in (*.xml) do copy "%25%25f" "$(TargetDir)\M3Reports\"
+rd "$(TargetDir)\Reports\" /s /q
+rd "$(TargetDir)\project items\" /s /q</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

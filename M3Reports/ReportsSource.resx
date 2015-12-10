@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessForClients" xml:space="preserve">
+    <value>Доступность для клиентов</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Адрес установки</value>
+  </data>
+  <data name="ATM" xml:space="preserve">
+    <value>Банкомат</value>
+  </data>
+  <data name="AtmGroups" xml:space="preserve">
+    <value>Группа УС</value>
+  </data>
+  <data name="AtmNumber" xml:space="preserve">
+    <value>Системный номер</value>
+  </data>
+  <data name="CashWithdrawal" xml:space="preserve">
+    <value>Выдача наличности</value>
+  </data>
+  <data name="CommunicationAvailability" xml:space="preserve">
+    <value>Доступность по связи</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Отдел</value>
+  </data>
+  <data name="GetCash" xml:space="preserve">
+    <value>Прием наличности</value>
+  </data>
+  <data name="GetStatements" xml:space="preserve">
+    <value>Получение выписок</value>
+  </data>
+  <data name="MakingPayments" xml:space="preserve">
+    <value>Проведение платежей</value>
+  </data>
+  <data name="Region" xml:space="preserve">
+    <value>Регион</value>
+  </data>
+  <data name="SN" xml:space="preserve">
+    <value>Серийный номер</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Функциональный статус</value>
+  </data>
+  <data name="AppearTime" xml:space="preserve">
+    <value>Время возникновения</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Комментарий</value>
+  </data>
+  <data name="Critical" xml:space="preserve">
+    <value>Критичность</value>
+  </data>
+  <data name="CurrentState" xml:space="preserve">
+    <value>Текущее состояние</value>
+  </data>
+  <data name="EventMessage" xml:space="preserve">
+    <value>Описание сообщения</value>
+  </data>
+  <data name="FinancialInstitute" xml:space="preserve">
+    <value>Финансовый институт</value>
+  </data>
+  <data name="IncidentNumber" xml:space="preserve">
+    <value>Номер инцидента</value>
+  </data>
+  <data name="Model" xml:space="preserve">
+    <value>Модель</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Номер</value>
+  </data>
+  <data name="Place" xml:space="preserve">
+    <value>Место установки</value>
+  </data>
+  <data name="SendOrderTime" xml:space="preserve">
+    <value>Время отправки заявки</value>
+  </data>
+  <data name="SupposedRepairTime" xml:space="preserve">
+    <value>Предположительное время ремонта</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Тип неисправности</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Количество</value>
+  </data>
+  <data name="AssignedTo" xml:space="preserve">
+    <value>Назначен</value>
+  </data>
+  <data name="AtmName" xml:space="preserve">
+    <value>Имя банкомата</value>
+  </data>
+  <data name="Autor" xml:space="preserve">
+    <value>Инициатор заявки</value>
+  </data>
+  <data name="BankDivision" xml:space="preserve">
+    <value>Подразделение банка</value>
+  </data>
+  <data name="ChangeData" xml:space="preserve">
+    <value>Дата последнего изменения</value>
+  </data>
+  <data name="Condition" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="Count" xml:space="preserve">
+    <value>Количество</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Валюта</value>
+  </data>
+  <data name="DateTime" xml:space="preserve">
+    <value>Дата и время</value>
+  </data>
+  <data name="DateTimeMin" xml:space="preserve">
+    <value>Дата достижения минимального остатка</value>
+  </data>
+  <data name="DateTimeZero" xml:space="preserve">
+    <value>Дата полного опустошения кассет</value>
+  </data>
+  <data name="DayOfWeek" xml:space="preserve">
+    <value>День недели</value>
+  </data>
+  <data name="Direction" xml:space="preserve">
+    <value>Направление</value>
+  </data>
+  <data name="DispCass" xml:space="preserve">
+    <value>Issued from {0}th cassette</value>
+  </data>
+  <data name="Dispense" xml:space="preserve">
+    <value>Выдано</value>
+  </data>
+  <data name="EncashHours" xml:space="preserve">
+    <value>Режим работы для инкассации</value>
+  </data>
+  <data name="Encashman" xml:space="preserve">
+    <value>ФИО инкассатора</value>
+  </data>
+  <data name="EUR" xml:space="preserve">
+    <value>EUR</value>
+  </data>
+  <data name="EventName" xml:space="preserve">
+    <value>Событие</value>
+  </data>
+  <data name="FinishDateTime" xml:space="preserve">
+    <value>Время окончания</value>
+  </data>
+  <data name="ForcastWithdraw" xml:space="preserve">
+    <value>Прогноз. Снято наличных</value>
+  </data>
+  <data name="HourCount" xml:space="preserve">
+    <value>Текущее время устранения инцидента</value>
+  </data>
+  <data name="IncidentCondition" xml:space="preserve">
+    <value>Состояние инцидента</value>
+  </data>
+  <data name="IpAddress" xml:space="preserve">
+    <value>IP адрес</value>
+  </data>
+  <data name="MaxSum" xml:space="preserve">
+    <value>Рекомендуемая сумма загрузки</value>
+  </data>
+  <data name="MessageText" xml:space="preserve">
+    <value>Текст сообщения</value>
+  </data>
+  <data name="MinAmount" xml:space="preserve">
+    <value>Минимальный остаток</value>
+  </data>
+  <data name="Problem" xml:space="preserve">
+    <value>Проблема</value>
+  </data>
+  <data name="Remain" xml:space="preserve">
+    <value>Статистика. Остатки на конец дня</value>
+  </data>
+  <data name="RemainForcast" xml:space="preserve">
+    <value>Прогноз. Остатки на конец дня</value>
+  </data>
+  <data name="Responsibility" xml:space="preserve">
+    <value>Ответсвенность</value>
+  </data>
+  <data name="ResponsibleFor" xml:space="preserve">
+    <value>Ответственный</value>
+  </data>
+  <data name="RouteNumber" xml:space="preserve">
+    <value>Номер маршрута</value>
+  </data>
+  <data name="RUB" xml:space="preserve">
+    <value>RUB</value>
+  </data>
+  <data name="StartDateTime" xml:space="preserve">
+    <value>Время начала</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="TimeCreated" xml:space="preserve">
+    <value>Время создания</value>
+  </data>
+  <data name="TimeProceedToService" xml:space="preserve">
+    <value>Плановая дата выполнения</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Итого</value>
+  </data>
+  <data name="Town" xml:space="preserve">
+    <value>Город</value>
+  </data>
+  <data name="Track2Data" xml:space="preserve">
+    <value>Карта</value>
+  </data>
+  <data name="USD" xml:space="preserve">
+    <value>USD</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Номинал</value>
+  </data>
+  <data name="Withdraw" xml:space="preserve">
+    <value>Статистика. Снято наличных</value>
+  </data>
+  <data name="WorkHours" xml:space="preserve">
+    <value>Режим работы для клиентов</value>
+  </data>
+  <data name="CashBalance" xml:space="preserve">
+    <value>Остаток денежной наличности</value>
+  </data>
+  <data name="Cassette" xml:space="preserve">
+    <value>Кассета</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>с</value>
+  </data>
+  <data name="GeneralForecast" xml:space="preserve">
+    <value>Общий прогноз</value>
+  </data>
+  <data name="ReportOnCashBalancesBNA" xml:space="preserve">
+    <value>Отчет по остаткам денежной наличности (BNA)</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>по</value>
+  </data>
+  <data name="TotalAmount" xml:space="preserve">
+    <value>Общая сумма по валютам</value>
+  </data>
+  <data name="TotalAmountOfBalancesForAGroupOfAtms" xml:space="preserve">
+    <value>Общая сумма остатков для группы банкоматов</value>
+  </data>
+  <data name="WithdrawCashForecast" xml:space="preserve">
+    <value>Прогноз снятия наличных на банкоматах</value>
+  </data>
+  <data name="ReportOnCashBalances_Dispenser" xml:space="preserve">
+    <value>Отчет по остаткам наличности (диспенсер)</value>
+  </data>
+  <data name="IncidentReport" xml:space="preserve">
+    <value>Отчет по инцидентам</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="ReportOnTheEliminationOfIncidents" xml:space="preserve">
+    <value>Отчет о ходе устранения инцидентов</value>
+  </data>
+  <data name="UserOfM3WEB" xml:space="preserve">
+    <value>Пользователь M3 WEB</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="NotInitialized" xml:space="preserve">
+    <value>NotInitialized</value>
+  </data>
+  <data name="BreakingOtherReasons" xml:space="preserve">
+    <value>Простой по сторонним причинам</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="DeadlineForRecovery" xml:space="preserve">
+    <value>Предельный срок восстановления</value>
+  </data>
+  <data name="FaultDescription" xml:space="preserve">
+    <value>Описание неисправности</value>
+  </data>
+  <data name="FaultReceiptPrinter" xml:space="preserve">
+    <value>Неисправность чекового принтера</value>
+  </data>
+  <data name="LackOfCash" xml:space="preserve">
+    <value>Отсутствует наличность</value>
+  </data>
+  <data name="LackOfCommunication" xml:space="preserve">
+    <value>Отсутствие связи</value>
+  </data>
+  <data name="MonitoringService" xml:space="preserve">
+    <value>Служба мониторинга</value>
+  </data>
+  <data name="NoConnection" xml:space="preserve">
+    <value>Нет связи</value>
+  </data>
+  <data name="ReportMonitoringServiceATMs" xml:space="preserve">
+    <value>Отчет службы мониторинга банкоматов</value>
+  </data>
+  <data name="SimplyBecauseOfTheLackOfCash" xml:space="preserve">
+    <value>Простой из-за отсутствия наличности</value>
+  </data>
+  <data name="TemporarilyNotWorking" xml:space="preserve">
+    <value>Временно не работает</value>
+  </data>
+  <data name="ThePaperEnds_JournalPrinter" xml:space="preserve">
+    <value>Бумага заканчивается. Журнальный принтер</value>
+  </data>
+  <data name="ThePaperEnds_ReceiptPrinter" xml:space="preserve">
+    <value>Бумага заканчивается. Чековый принтер</value>
+  </data>
+  <data name="WaitingForRepairs" xml:space="preserve">
+    <value>Ожидание ремонта</value>
+  </data>
+  <data name="AvailabilityOfAtmNetwork" xml:space="preserve">
+    <value>Доступность сети банкоматов</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>События</value>
+  </data>
+  <data name="ReportOnAvailability" xml:space="preserve">
+    <value>Отчет по доступности</value>
+  </data>
+  <data name="ReportOnTheEventsAtTheAtm" xml:space="preserve">
+    <value>Отчет по событиям на банкомате</value>
+  </data>
+  <data name="InService" xml:space="preserve">
+    <value>Обслуживает</value>
+  </data>
+  <data name="OutOfService" xml:space="preserve">
+    <value>Не обслуживает</value>
+  </data>
+  <data name="RegisteredAtms" xml:space="preserve">
+    <value>Зарегистрированные банкоматы</value>
+  </data>
+  <data name="ReportRegisteredAtmsOf" xml:space="preserve">
+    <value>Отчет о зарегистрированных банкоматах на</value>
+  </data>
+  <data name="Dispenser" xml:space="preserve">
+    <value>Диспенсер</value>
+  </data>
+  <data name="Incidents" xml:space="preserve">
+    <value>Инциденты</value>
+  </data>
+  <data name="Working" xml:space="preserve">
+    <value>Работает</value>
+  </data>
+  <data name="Availability" xml:space="preserve">
+    <value>Доступность</value>
+  </data>
+  <data name="of" xml:space="preserve">
+    <value>от</value>
+  </data>
+  <data name="Less" xml:space="preserve">
+    <value>Менее</value>
+  </data>
+  <data name="More" xml:space="preserve">
+    <value>Более</value>
+  </data>
+  <data name="ReportCreated" xml:space="preserve">
+    <value>Отчет создан:</value>
+  </data>
+  <data name="ReportSummaryIncidents" xml:space="preserve">
+    <value>Сводный отчет по инцидентам</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>Неизвестна</value>
+  </data>
+  <data name="ReportSummaryIncidentsWorkingIncidents" xml:space="preserve">
+    <value>Сводный отчет по инцидентам. Рабочие инциденты</value>
+  </data>
+  <data name="ReportUserActions" xml:space="preserve">
+    <value>Отчет по действиям пользователя</value>
+  </data>
+  <data name="UserActions" xml:space="preserve">
+    <value>Действия пользователя</value>
+  </data>
+  <data name="fromAtm" xml:space="preserve">
+    <value>от банкомата</value>
+  </data>
+  <data name="fromHost" xml:space="preserve">
+    <value>от хоста</value>
+  </data>
+  <data name="MessageHistory" xml:space="preserve">
+    <value>История сообщений</value>
+  </data>
+  <data name="NotDetermined" xml:space="preserve">
+    <value>Не определено</value>
+  </data>
+  <data name="ReportMessages" xml:space="preserve">
+    <value>Отчет по сообщениям</value>
+  </data>
+  <data name="Registered" xml:space="preserve">
+    <value>Зарегистрированно</value>
+  </data>
+  <data name="ReportIncidentTable" xml:space="preserve">
+    <value>Отчет по сводной таблице инцидентов</value>
+  </data>
+</root>

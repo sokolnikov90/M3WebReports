@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Columns>
+  <Column>
+    <Location>A</Location>
+    <Name>StartDateTime</Name>
+    <Title>Время начала</Title>
+    <Width>25</Width>
+  </Column>
+  <Column>
+    <Location>B</Location>
+    <Name>FinishDateTime</Name>
+    <Title>Время окончания</Title>
+    <Width>25</Width>
+  </Column>
+  <Column>
+    <Location>C</Location>
+    <Name>Status</Name>
+    <Title>Статус</Title>
+    <Width>20</Width>
+  </Column>
+  <Column>
+    <Location>D</Location>
+    <Name>Currency</Name>
+    <Title>Валюта</Title>
+    <Width>10</Width>
+  </Column>
+  <Column>
+    <Location>E</Location>
+    <Name>Count</Name>
+    <Title>Количество</Title>
+    <Width>16</Width>
+  </Column>
+  <Column>
+    <Location>F</Location>
+    <Name>Dispense</Name>
+    <Title>Выдано</Title>
+    <Width>14</Width>
+  </Column>
+  <Column>
+    <Location>G</Location>
+    <Name>DispCass</Name>
+    <Title>Выдано из 1-ой кассеты</Title>
+    <Width>24</Width>
+  </Column>
+  <Column>
+    <Location>H</Location>
+    <Name>DispCass</Name>
+    <Title>Выдано из 2-ой кассеты</Title>
+    <Width>24</Width>
+  </Column>
+  <Column>
+    <Location>I</Location>
+    <Name>DispCass</Name>
+    <Title>Выдано из 3-й кассеты</Title>
+    <Width>24</Width>
+  </Column>
+  <Column>
+    <Location>J</Location>
+    <Name>DispCass</Name>
+    <Title>Выдано из 4-ой кассеты</Title>
+    <Width>24</Width>
+  </Column>
+  <Column>
+    <Location>K</Location>
+    <Name>State</Name>
+    <Title>Стейт</Title>
+    <Width>10</Width>
+  </Column>
+  <Column>
+    <Location>L</Location>
+    <Name>Track2Data</Name>
+    <Title>Карта</Title>
+    <Width>22</Width>
+  </Column>
+</Columns>

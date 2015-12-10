@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Columns>
+  <Column>
+    <Location>A</Location>
+    <Name>ATM</Name>
+    <Title>Банкомат</Title>
+    <Width>20</Width>
+  </Column>
+  <Column>
+    <Location>B</Location>
+    <Name>Region</Name>
+    <Title>Регион</Title>
+    <Width>30</Width>
+  </Column>
+  <Column>
+    <Location>C</Location>
+    <Name>Address</Name>
+    <Title>Адрес</Title>
+    <Width>20</Width>
+  </Column>
+  <Column>
+    <Location>D</Location>
+    <Name>CommunicationAvailability</Name>
+    <Title>Доступность по связи</Title>
+    <Width>20</Width>
+  </Column>
+  <Column>
+    <Location>E</Location>
+    <Name>CashWithdrawal</Name>
+    <Title>Выдача наличности</Title>
+    <Width>20</Width>
+  </Column>
+  <Column>
+    <Location>F</Location>
+    <Name>GetCash</Name>
+    <Title>Прием наличности</Title>
+    <Width>25</Width>    
+  </Column>
+  <Column>
+    <Location>G</Location>
+    <Name>MakingPayments</Name>
+    <Title>Проведение платежей</Title>
+    <Width>25</Width>
+  </Column>
+  <Column>
+    <Location>H</Location>
+    <Name>GetStatements</Name>
+    <Title>Получение выписок</Title>
+    <Width>35</Width>
+  </Column>
+  <Column>
+    <Location>I</Location>
+    <Name>AccessForClients</Name>
+    <Title>Доступность для клиентов</Title>
+    <Width>35</Width>
+  </Column>
+  <AttrSettings>
+    <AtmMode InService = "12" OutOfService ="13">138</AtmMode>
+  </AttrSettings>  
+</Columns>
+

@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Columns>
+  <Column>
+    <Location>A</Location>
+    <Name>Number</Name>
+    <Title>Номер</Title>
+    <Width>15</Width>
+  </Column>
+  <Column>
+    <Location>B</Location>
+    <Name>AtmNumber</Name>
+    <Title>Системный номер</Title>
+    <Width>25</Width>
+  </Column>
+  <Column>
+    <Location>C</Location>
+    <Name>AtmName</Name>
+    <Title>Имя банкомата</Title>
+    <Width>50</Width>
+  </Column>
+  <Column>
+    <Location>D</Location>
+    <Name>Model</Name>
+    <Title>Модель</Title>
+    <Width>25</Width>
+  </Column>
+  <Column>
+    <Location>E</Location>
+    <Name>SN</Name>
+    <Title>Серийный номер</Title>
+    <Width>20</Width>
+  </Column>
+  <Column>
+    <Location>F</Location>
+    <Name>Town</Name>
+    <Title>Город</Title>
+    <Width>20</Width>
+  </Column>
+  <Column>
+    <Location>G</Location>
+    <Name>Address</Name>
+    <Title>Адрес</Title>
+    <Width>70</Width>
+  </Column>
+  <Column>
+    <Location>H</Location>
+    <Name>Place</Name>
+    <Title>Место установки</Title>
+    <Width>30</Width>
+  </Column>
+  <Column>
+    <Location>I</Location>
+    <Name>Status</Name>
+    <Title>Статус инцидента</Title>
+    <Width>35</Width>
+  </Column>
+  <Column>
+    <Location>J</Location>
+    <Name>Comment</Name>
+    <Title>Комментарий</Title>
+    <Width>50</Width>
+  </Column>
+  <Column>
+    <Location>K</Location>
+    <Name>BankDivision</Name>
+    <Title>Подразделение банка</Title>
+    <Width>30</Width>
+  </Column>
+  <Column>
+    <Location>L</Location>
+    <Name>AssignedTo</Name>
+    <Title>Назначен</Title>
+    <Width>25</Width>
+  </Column>
+  <Column>
+    <Location>M</Location>
+    <Name>ResponsibleFor</Name>
+    <Title>Ответственный</Title>
+    <Width>20</Width>
+  </Column>
+  <Column>
+    <Location>N</Location>
+    <Name>TimeCreated</Name>
+    <Title>Время создания</Title>
+    <Width>25</Width>
+  </Column>
+  <Column>
+    <Location>O</Location>
+    <Name>TimeProceedToService</Name>
+    <Title>Плановая дата выполнения</Title>
+    <Width>30</Width>
+  </Column>
+  <Column>
+  <Location>P</Location>
+  <Name>Critical</Name>
+  <Title>Критичность</Title>
+  <Width>25</Width>
+  </Column>
+  <Column>
+    <Location>Q</Location>
+    <Name>WorkHours</Name>
+    <Title>Режим работы для клиентов</Title>
+    <Width>30</Width>
+  </Column>
+  <Column>
+    <Location>R</Location>
+    <Name>EncashHours</Name>
+    <Title>Режим работы для инкассации</Title>
+    <Width>30</Width>
+  </Column>
+  <Column>
+    <Location>S</Location>
+    <Name>MaxSum</Name>
+    <Title>Рекомендуемая сумма загрузки</Title>
+    <Width>40</Width>
+  </Column>
+  <Column>
+    <Location>T</Location>
+    <Name>Encashman</Name>
+    <Title>ФИО инкассатора</Title>
+    <Width>30</Width>
+  </Column>
+  <Column>
+    <Location>U</Location>
+    <Name>RouteNumber</Name>
+    <Title>Номер маршрута</Title>
+    <Width>30</Width>
+  </Column>
+  <Column>
+    <Location>V</Location>
+    <Name>Autor</Name>
+    <Title>Инициатор заявки</Title>
+    <Width>30</Width>
+  </Column>
+  <Column>
+    <Location>W</Location>
+    <Name>ChangeData</Name>
+    <Title>Дата последнего изменения</Title>
+    <Width>30</Width>
+  </Column>
+</Columns>

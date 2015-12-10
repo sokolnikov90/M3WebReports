@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Columns>
+  <Column>
+    <Location>A</Location>
+    <Name>DateTime</Name>
+    <Title>Дата отправки</Title>
+    <Width>20</Width>
+  </Column>
+  <Column>
+    <Location>B</Location>
+    <Name>Direction</Name>
+    <Title>Направление передачи</Title>
+    <Width>24</Width>
+  </Column>
+  <Column>
+    <Location>C</Location>
+    <Name>MessageText</Name>
+    <Title>Текст сообщения</Title>
+    <Width>120</Width>
+  </Column>
+</Columns>

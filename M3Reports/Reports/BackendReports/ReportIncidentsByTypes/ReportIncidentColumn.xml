@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Columns>
+  <Column>
+    <Location>A</Location>
+    <Name>IncidentNumber</Name>
+    <Title>Номер инцидента</Title>
+    <Width>20</Width>
+  </Column>
+  <Column>
+    <Location>B</Location>
+    <Name>Number</Name>
+    <Title>Номер</Title>
+    <Width>20</Width>
+  </Column>
+  <Column>
+    <Location>C</Location>
+    <Name>Model</Name>
+    <Title>Модель</Title>
+    <Width>20</Width>
+  </Column>
+  <Column>
+    <Location>E</Location>
+    <Name>Address</Name>
+    <Title>Адрес</Title>
+    <Width>40</Width>
+  </Column>
+  <Column>
+    <Location>F</Location>
+    <Name>Place</Name>
+    <Title>Место расположения</Title>
+    <Width>35</Width>
+  </Column>
+  <Column>
+    <Location>G</Location>
+    <Name>Type</Name>
+    <Title>Тип неисправности</Title>
+    <Width>30</Width>
+  </Column>
+  <Column>
+    <Location>H</Location>
+    <Name>AppearTime</Name>
+    <Title>Время появления</Title>
+    <Width>30</Width>
+  </Column>
+  <Column>
+    <Location>I</Location>
+    <Name>SendOrderTime</Name>
+    <Title>Время отправки заявки</Title>
+    <Width>30</Width>
+  </Column>
+  <Column>
+    <Location>J</Location>
+    <Name>SupposedRepairTime</Name>
+    <Title>Предположительное время ремонта</Title>
+    <Width>35</Width>    
+  </Column>
+  <Column>
+    <Location>K</Location>
+    <Name>CurrentState</Name>
+    <Title>Текущее состояние</Title>
+    <Width>25</Width>
+  </Column>
+  <Column>
+    <Location>L</Location>
+    <Name>EventMessage</Name>
+    <Title>Описание сообщения</Title>
+    <Width>50</Width>
+  </Column>
+  <Column>
+    <Location>M</Location>
+    <Name>Comment</Name>
+    <Title>Комментарий</Title>
+    <Width>40</Width>
+  </Column>
+</Columns>

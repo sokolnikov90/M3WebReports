@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Columns>
+  <Column>
+    <Location>A</Location>
+    <Name>EventName</Name>
+    <Title>Описание действия</Title>
+    <Width>40</Width>
+  </Column>
+  <Column>
+    <Location>B</Location>
+    <Name>DateTime</Name>
+    <Title>Дата и время</Title>
+    <Width>40</Width>
+  </Column>
+  <Column>
+    <Location>c</Location>
+    <Name>IpAddress</Name>
+    <Title>IP адрес</Title>
+    <Width>40</Width>
+  </Column>
+</Columns>

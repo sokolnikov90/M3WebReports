@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Columns>
+  <Column>
+    <Location>A</Location>
+    <Name>Number</Name>
+    <Title>Номер</Title>
+    <Width>15</Width>
+  </Column>
+  <Column>
+    <Location>B</Location>
+    <Name>IncidentCondition</Name>
+    <Title>Состояние инцидента</Title>
+    <Width>22</Width>
+  </Column>
+  <Column>
+    <Location>C</Location>
+    <Name>AtmNumber</Name>
+    <Title>Номер банкомата</Title>
+    <Width>25</Width>
+  </Column>
+  <Column>
+    <Location>D</Location>
+    <Name>AtmName</Name>
+    <Title>Имя банкомата</Title>
+    <Width>50</Width>
+  </Column>
+  <Column>
+    <Location>E</Location>
+    <Name>TimeCreated</Name>
+    <Title>Время создания</Title>
+    <Width>25</Width>
+  </Column>
+  <Column>
+    <Location>F</Location>
+    <Name>TimeProceedToService</Name>
+    <Title>Плановая дата выполнения</Title>
+    <Width>30</Width>
+  </Column>
+  <Column>
+    <Location>G</Location>
+    <Name>Comment</Name>
+    <Title>Комментарий</Title>
+    <Width>40</Width>
+  </Column>
+  <Column>
+    <Location>H</Location>
+    <Name>Critical</Name>
+    <Title>Критичность</Title>
+    <Width>25</Width>
+  </Column> 
+</Columns>

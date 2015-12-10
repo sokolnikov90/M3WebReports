@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Columns>
+  <Column>
+    <Location>A</Location>
+    <Name>Responsibility</Name>
+    <Title>Ответсвенность</Title>
+    <Width>25</Width>
+  </Column>
+  <Column>
+    <Location>B</Location>
+    <Name>Problem</Name>
+    <Title>Проблема</Title>
+    <Width>25</Width>
+  </Column>
+  <Column>
+    <Location>C</Location>
+    <Name>Total</Name>
+    <Title>Итого</Title>
+    <Width>11</Width>
+  </Column>
+</Columns>
